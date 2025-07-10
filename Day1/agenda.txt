@@ -1,0 +1,14 @@
+- History of JS
+- where should we write JS
+- Data Types
+- Variables
+- Arthemetic Operators
+- Comparisons
+- Logical Operators
+- Short Circuits
+- Conditions
+- Loops
+- How to take input from user
+- document.WriteLn
+- alert 
+- Confirm
