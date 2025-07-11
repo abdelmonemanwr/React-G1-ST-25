@@ -395,5 +395,11 @@ falsy values
 
 // alert("hi");
 
-var x = confirm("is your age > 20 ?")
-console.log(x);
+// var x = confirm("is your age > 20 ?")
+// console.log(x);
+
+
+var message = prompt("enter a word");
+for(var i = 0; i < message.length; i++){
+    console.log(message[i]);
+}
