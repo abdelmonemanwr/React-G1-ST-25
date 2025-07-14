@@ -1,0 +1,13 @@
+= Bom
+  1-- window
+  2-- location
+  3-- history
+  4-- navigator
+  5-- screen (self study)
+
+= Events
+  1-- Add Attributes
+  2-- Attach Function
+  3-- Add Event Listener
+
+  Propagation

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Day 5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body onclick="myBody(event)">
+    <!-- <button id="btn" onclick="openWindow()">Open New Window</button>
+    <button id="btn" onclick="closeWindow()">Close Window</button>
+    <button id="btn" onclick="moveToWindow()">Move To Window</button>
+    <button id="btn" onclick="moveByWindow()">Move By Window</button>
+    <button id="btn" onclick="resizeToWindow()">Resize To Window</button>
+    <button id="btn" onclick="resizeByWindow()">Resize By Window</button> -->
+
+
+
+
+    <div class="parent">
+        <form onsubmit="submit(event)">
+            <input id="input" type="text" placeholder="enter your name" name="username" value="" />
+            <span id="errorMSG">username must be more than 3 letters</span>
+            <button id="btn1">Send</button>
+        </form>
+    </div>
+
+
+    <div class="parent">
+        <h1 id="head1">Our Products</h1>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia
+            deserunt mollit anim id est laborum.</p>
+        <!-- onclick="execute(event)" -->
+        <button id="btn" class="myBtn">Change</button>
+    </div>
+
+    <div class="first" onclick="first(event)">
+        <div class="second" onclick="second(event)">
+            <div class="third" onclick="third(event)"></div>
+            </divc>
+        </div>
+        <script src='main.js'></script>
+</body>
+
+</html>
